@@ -1,0 +1,18 @@
+regolith.look: dracula
+
+! -- Styles - Colors
+#include "/home/maykon/.config/regolith/styles/dracula/color"
+
+! -- Styles - Fonts
+#include "/home/maykon/.config/regolith/styles/dracula/typeface"
+
+! -- Styles - Theme
+#include "/home/maykon/.config/regolith/styles/dracula/theme"
+
+! -- Applications
+! These files map values defined above into specific app settings.
+#include "/home/maykon/.config/regolith/styles/dracula/st-term"
+#include "/home/maykon/.config/regolith/styles/dracula/i3-wm"
+#include "/home/maykon/.config/regolith/styles/i3xrocks"
+#include "/home/maykon/.config/regolith/styles/rofi"
+#include "/home/maykon/.config/regolith/styles/gnome"
